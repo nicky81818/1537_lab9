@@ -10,7 +10,7 @@ $(document).ready(function () {
             $("main").append(
                     `
                     <div class="movie">
-                        <img src="${res.data.movie.medium_cover_image}" alt="${res.data.movie.title}">
+                        <img src="${res.data.movie.large_cover_image}" alt="${res.data.movie.title}">
                     </div>
                     <div class="movie-info">
                         <h3>${res.data.movie.title}</h3>
