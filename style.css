@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.movie {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 25%; */
+    width: 22%;
+    margin: 10px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

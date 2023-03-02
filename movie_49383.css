@@ -1,0 +1,10 @@
+.movie-info {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    width: 80%;
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+}
